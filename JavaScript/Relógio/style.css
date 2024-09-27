@@ -20,6 +20,12 @@ div{
     text-align: center;
     padding: 8px;
 }
+#msg{
+    font-size: 30px;
+    font-family:fantasy;
+    color: rgb(73, 66, 66);
+
+}
 
 footer{
     text-align: center;
