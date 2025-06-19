@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .sidebar {
+    width: 25%;
+    background-color: #d4acac;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .main {
+    width: 75%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+  }
+
+  .section {
+    margin-bottom: 20px;
+  }
+
+  .item {
+    margin-bottom: 10px;
+  }
+
+  .item-title {
+    font-weight: bold;
+  }
+
+  .item-year {
+    font-style: italic;
+    color: #666;
+  }
+
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+
+  .profile-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
