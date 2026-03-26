@@ -6,9 +6,24 @@
     <title>View 5</title>
 </head>
 <body>
-    <form id="formInscricao"></form>
+    <form id="formInscricao">
         <div>Nome completo: <input type="text" id="nomeCompleto"><br>
-             Email: <input type="email" id="email">
+             Email: <input type="email" id="email"><br>
+             Senha: <input type="password" id="senha"><br>
+             Data de nascimento: <input type="date" id="dataNascimento"><br>
+             Horario preferido: <input type="time" id="horarioPreferido"><br>
+             URL portifólio: <input type="url" id="urlPortfolio"><br>
+             Selecione um curso: <select id="cursos" placeholder="Selecione um curso">
+                <option value="Java">Java</option>
+                <option value="javascript">JavaScript</option>
+                <option value="futebol">Futebol</option>
+            </select><br>
+            Turno: <input type="radio" name="turno" value="manha">Manhã
+            <input type="radio" name="turno" value="tarde">Noite <br>
+            Interesses: <input type="checkbox" name="interesses" value="tecnologia">HTML
+            <input type="checkbox" name="interesses" value="tecnologia">CSS
+            <input type="checkbox" name="interesses" value="tecnologia">JavaScript <br>
+            Motivações: <textarea id="motivacoes"></textarea><br>
         </div>
         <div>
             <button type="submit">Enviar</button>
