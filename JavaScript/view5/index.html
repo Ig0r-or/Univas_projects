@@ -8,22 +8,36 @@
 <body>
     <form id="formInscricao">
         <div>Nome completo: <input type="text" id="nomeCompleto"><br>
+            <small id="erroCampo" style="color: red;"></small>
+
              Email: <input type="email" id="email"><br>
+             <small id="erroCampo" style="color: red;"></small>
              Senha: <input type="password" id="senha"><br>
+             <small id="erroCampo" style="color: red;"></small>
              Data de nascimento: <input type="date" id="dataNascimento"><br>
+             <small id="erroCampo" style="color: red;"></small>
              Horario preferido: <input type="time" id="horarioPreferido"><br>
+                <small id="erroCampo" style="color: red;"></small>
              URL portifólio: <input type="url" id="urlPortfolio"><br>
+                <small id="erroCampo" style="color: red;"></small>
              Selecione um curso: <select id="cursos" placeholder="Selecione um curso">
                 <option value="Java">Java</option>
                 <option value="javascript">JavaScript</option>
                 <option value="futebol">Futebol</option>
             </select><br>
             Turno: <input type="radio" name="turno" value="manha">Manhã
+            <small id="erroCampo" style="color: red;"></small>
             <input type="radio" name="turno" value="tarde">Noite <br>
-            Interesses: <input type="checkbox" name="interesses" value="tecnologia">HTML
-            <input type="checkbox" name="interesses" value="tecnologia">CSS
-            <input type="checkbox" name="interesses" value="tecnologia">JavaScript <br>
+            <small id="erroCampo" style="color: red;"></small>
+            Interesses: <input type="checkbox" name="interesses" value="HTML">HTML
+            <small id="erroCampo" style="color: red;"></small>
+            <input type="checkbox" name="interesses" value="CSS">CSS
+            <small id="erroCampo" style="color: red;"></small>
+            <input type="checkbox" name="interesses" value="JavaScript">JavaScript <br>
+            <small id="erroCampo" style="color: red;"></small>
             Motivações: <textarea id="motivacoes"></textarea><br>
+            Termos de uso: <input type="checkbox" id="termosUso"> Aceito os termos de uso
+            <small id="erroCampo" style="color: red;"></small>
         </div>
         <div>
             <button type="submit">Enviar</button>
